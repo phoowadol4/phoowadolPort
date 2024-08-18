@@ -45,10 +45,10 @@ a:hover{
     color: black;
     transition: .5s;
 }
-/* a.active,a:hover{
-    background: blueviolet;
+a.active,a:hover{
+    /* background: blueviolet; */
     transition: .5s;
-} */
+}
 
 .menu{
     color: white;
@@ -58,7 +58,7 @@ a:hover{
     color: black;
 }
 .checkbtn{
-    font-size: 30px;
+    font-size: 40px;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -70,7 +70,7 @@ a:hover{
     display: none;
 }
 
-@media (max-width: 1200px) {
+@media  (max-width: 2700px) {
     label.logo{
         font-size: 30px;
         padding-left: 50px;
@@ -82,9 +82,66 @@ a:hover{
     /* .checkbtn{
         display: none;
     } */
+
+    .user{
+        display: inline-block;
+         margin-top: 80px;
+        /* margin-left: 50px;  */
+
+    }
+    
+    .user img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+
+    }
+     .user .nameacc{
+        font-size: 40px;
+        float: inline-end;
+        margin-top: 80px;    
+    }
+
+    .personal{
+        text-align: center;
+        font-size: 20px;
+    }
+    .works{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    .work{
+        text-align: center;
+        background: gray;
+        margin: 10px;
+        height: 100px;
+        padding: 10px;
+        color: chartreuse;
+        font-weight: 400;
+    }
+
+    .work .workview{
+        background: skyblue;
+        padding: 5px;
+        width: 80px;
+        border-radius: 8%;
+    }
+    .socials{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .social{
+        text-align: center;
+        background: skyblue;
+        margin: 10px;
+        height: 100px;
+
+
+    }
 }
 
-@media (max-width:858px) {
+@media (max-width:1000px) {
     .checkbtn{
         display: block;
     }
@@ -128,4 +185,130 @@ a:hover{
 
     }
 
+    .user{
+        display: flex;
+        margin-top: 80px;
+    }
+
+    .user img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .user .nameacc{
+        font-size: 30px;
+        margin:  5px;
+        margin-top: 60px;
+    }
+      .personal{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .works{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .work{
+        text-align: center;
+        background: gray;
+        margin: 10px;
+        height: 100px;
+        padding: 10px;
+        color: chartreuse;
+        font-weight: 400;
+    }
+
+    .work .workview{
+        background: skyblue;
+        margin: 10px;
+        width: 80px;
+        border-radius: 8%;
+    }
+
+    .socials{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .social{
+        text-align: center;
+        background: skyblue;
+        margin: 10px;
+        height: 100px;
+
+
+    }
+
+}
+
+@media (max-width:600px) {
+    label.logo{
+        font-size: 28px;
+    }
+
+    .user{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+     .user .nameacc {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 26px;
+    }
+    .user img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+     .personal{
+        margin: 2px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .works{
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+    }
+    
+    .work{
+        text-align: center;
+        background: gray;
+        margin: 10px;
+        height: 100px;
+        padding: 10px;
+        color: chartreuse;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .work .workview{
+        background: skyblue;
+        padding: 5px;
+        margin: 10px;
+        width: 80px;
+        border-radius: 8%;
+    }
+
+    .socials{
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+    }
+    .social{
+        text-align: center;
+        background: blueviolet;
+        margin: 10px;
+        height: 100px;
+
+    }
+    
+}
+
+
+section{
+    padding: 5px;
 }
