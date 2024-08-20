@@ -156,9 +156,34 @@ a.active,a:hover{
     }
     .social{
         text-align: center;
-        background: skyblue;
         margin: 10px;
         height: 200px;
+    }
+    .social img{
+        width: 50px;
+        height: 50px;
+        gap: 5px;
+        /* display: inline-block; */
+        margin-top: 20px;
+    }
+    .send{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 250px;
+        padding: 10px;
+    }
+    .send input{
+        width: 450px;
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+
+    }
+    .send button{
+        background: rgb(52, 52, 173);
+        color: white;
+        border-radius: 10px;
     }
     .tools{
         display: grid;
@@ -171,6 +196,22 @@ a.active,a:hover{
     }
     .tool img{
         width: 150px;
+    }
+    .toolh{
+        text-align: center;
+        background: rgb(206, 202, 202);
+        width: 200px;
+        border-radius: 5%;
+        padding: 2px;
+
+
+    }
+
+    .toolh .toolkit{
+        text-transform: uppercase;
+        font-size: 20px;
+        margin: 0 auto;
+        
     }
 }
 
@@ -296,11 +337,35 @@ a.active,a:hover{
     }
     .social{
         text-align: center;
-        background: skyblue;
         margin: 10px;
         height: 200px;
 
 
+    }
+    .social img{
+        width: 50px;
+        height: 50px;
+        gap: 5px;
+        display: inline-block;    
+    }
+    .send{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 250px;
+        padding: 10px;
+    }
+    .send input{
+        width: 300px;
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+
+    }
+    .send button{
+        background: rgb(52, 52, 173);
+        color: white;
+        border-radius: 10px;
     }
     .tools{
         display: grid;
@@ -314,6 +379,7 @@ a.active,a:hover{
     .tool img{
         width: 150px;
     }
+    
 
 }
 
@@ -398,11 +464,39 @@ a.active,a:hover{
     }
     .social{
         text-align: center;
-        background: blueviolet;
-        margin: 10px;
-        height: 250px;
+        margin: 5px;
+        height: 100px;
 
     }
+    .social img{
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        display: inline-block;
+    }
+     .socials .send{
+        display: flex;
+        text-align: left;
+        padding: 10px;
+        margin: auto;
+
+    }
+     .send input{
+        width: 300px;
+        margin: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 0 auto;
+
+    } 
+    .send button{
+        background: rgb(52, 52, 173);
+        color: white;
+        border-radius: 10px;
+        margin: 0 auto;
+        width: 100px;
+    } 
+    
     .tools{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -417,11 +511,11 @@ a.active,a:hover{
     }
 
     .toolh{
-        display: block;
-        justify-content: center;
-        align-items: center;
-        background: gray;
-        width: 100px;
+        display: flex;
+        background: rgb(206, 202, 202);
+        width: 200px;
+        margin: 0 auto;
+        border-radius: 5%;
 
 
     }
@@ -430,12 +524,25 @@ a.active,a:hover{
         text-transform: uppercase;
         font-size: 20px;
         margin: 0 auto;
-        text-align: center;
         
     }
     
+    
 }
 
+.devby{
+    width: 100%;
+    background: blue;
+    justify-content: end;
+    margin-top:100px;
+}
+ .bydev{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+}
 section{
     padding: 10px;
     

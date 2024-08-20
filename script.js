@@ -13,3 +13,4 @@ document.querySelectorAll('.tosction, a').forEach(function(link){
    });
 });
  
+document.getElementById("copyright").innerHTML = new Date().getFullYear();
